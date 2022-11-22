@@ -1,4 +1,4 @@
-# VISONSEDGE TECHNOLOGIES WEBSITE
+# VISIONSEDGE TECHNOLOGIES WEBSITE
 To start this website build, first get this repo using below url
 
 git clone https://github.com/Visionsedge-Technologies/website

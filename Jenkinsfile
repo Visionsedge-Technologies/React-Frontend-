@@ -3,7 +3,7 @@ node
  
   stage("CheckOutCodeGit")
   {
-   
+   git clone https://github.com/Visionsedge-Technologies/website
  }
  
  stage("Build")

@@ -3,7 +3,7 @@ node
  
   stage("CheckOutCodeGit")
   {
-   git clone https://github.com/Visionsedge-Technologies/website
+   git credentialsId: 'github-credientials', url: 'https://github.com/Visionsedge-Technologies/React-Frontend-'
  }
  
  stage("Build")

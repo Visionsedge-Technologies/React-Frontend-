@@ -6,7 +6,7 @@
     "build": "vite build",
     "preview": "vite preview"
     "publishConfig": {
-    "registry": "http://3.236.129.45:8081/repository/ebay-npm-repo/"
+    "registry": "http://18.191.188.97:7909/repository/visionsedgetech-releases/"
   },
   },
   "dependencies": {

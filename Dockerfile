@@ -6,6 +6,6 @@ COPY  package*.json  $PROJECT_HOME/
 WORKDIR $PROJECT_HOME
 RUN npm install
 COPY . .
-RUN npm run build
+RUN npm run dev && npm run build
 EXPOSE 3000
 CMD  ["npx", "serve", "build" "index.html"]
